@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    background: white;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 100%;
+    width: 100%;
+    height: 100%;
+
+}
+
+.campus{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 40% 20% 20%;
+}
+
+.productos{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.uno{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#one{
+    font-size: 3vw;
+    text-align: center;
+    color: rgb(22, 143, 102);
+}
+.dos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.dos button{
+    margin: 2vw 2vw 2vw 3vw;
+    border: none;
+    background-color: transparent;
+    font-size: 2vw;
+    color: rgb(22, 143, 102);
+    transition: 0.4s;
+}
+
+.dos button:hover{
+    background-color: rgb(240, 255, 252);
+    border: 1px solid rgb(27, 177, 127);
+}
+
+
+.tres button{
+    margin: 2vw 2vw 2vw 3vw;
+    border: none;
+    background-color: transparent;
+    font-size: 1.5vw;
+    color: rgb(22, 143, 102);
+    transition: 0.4s;
+}
+
+
+.tres button:hover{
+    background-color: rgb(240, 255, 252);
+    border: 1px solid rgb(27, 177, 127);
+}
+
+
+.cuatro footer{
+    font-size: 1vw;
+    margin: 2vw 2vw 2vw 3vw;
+    color: rgb(22, 143, 102);
+}
+
+.todos{
+    border: 1px solid rgb(27, 177, 127);
+    width: 90%;
+    height: 90%;
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto;
+    overflow-y: scroll;
+    align-content: stretch;
+    align-items: stretch;
+}
+
+.uan{
+    display: block;
+    border: 1px solid black;
+    width: 15vw;
+    height: 20vw;
+    margin: 1vw;
+}
+
+.tu{
+    border: 1px solid black;
+    width: 15vw;
+    height: 20vw;
+    margin: 1vw;
+}
+.tri{
+    border: 1px solid black;
+    width: 15vw;
+    height: 20vw;
+    margin: 1vw;
+}
+.for{
+    border: 1px solid black;
+    width: 15vw;
+    height: 20vw;
+    margin: 1vw;
+}
