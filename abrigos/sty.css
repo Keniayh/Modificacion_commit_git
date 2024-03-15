@@ -5,7 +5,7 @@ body{
     height: 100vh;
 }
 
-.contenedor{
+.container{
     display: grid;
     grid-template-columns: 25% 75%;
     grid-template-rows: 100%;
@@ -17,38 +17,204 @@ body{
 .campus{
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 20% 40% 20% 20%;
 }
 
-.abrigos{
+.productos{
     width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
 }
 
+
+
+.uno{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#one{
+    font-size: 3vw;
+    text-align: center;
+    color: rgb(22, 143, 102);
+}
+.dos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.dos button{
+    margin: 2vw 2vw 2vw 3vw; 
+    border: none;
+    background-color: transparent;
+    font-size: 1.5vw;
+    color: rgb(22, 143, 102);
+    transition: all 0.4s ease 0s;
+    text-align: left;
+    padding: 2vw 10vw 2vw 2vw;
+    margin: 0 0 0 2vw;
+}
+
+.dos button:hover{
+    background-color: rgb(240, 255, 252);
+    border: 1px solid rgb(27, 177, 127);
+}
+
+
+.tres button{
+    margin: 2vw 2vw 2vw 3vw; 
+    border: none;
+    background-color: transparent;
+    font-size: 1.5vw;
+    color: rgb(22, 143, 102);
+    transition: all 0.4s ease 0s;
+    text-align: left;
+    padding: 2vw 10vw 2vw 2vw;
+    margin: 0 0 0 2vw;
+    margin: 2vw;
+}
+
+
+.tres button:hover{
+    background-color: rgb(240, 255, 252);
+    border: 1px solid rgb(27, 177, 127);
+}
+
+
+.cuatro footer{
+    font-size: 1vw;
+    margin: 2vw 2vw 2vw 3vw;
+    color: rgb(22, 143, 102);
+}
+
 .todos{
-    border: 1px solid rgb(0, 255, 128);
+    border: 1px solid rgb(27, 177, 127);
     width: 90%;
     height: 90%;
     border-radius: 30px;
     display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 15% 85%;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto;
+    overflow-y: scroll;
+    align-content: stretch;
+    align-items: stretch;
 }
 
-.uno{
-    border: 1px solid purple;
+div#cosita{
+    display: flex;
+    border: 2px solid rgb(22, 143, 102);
+    width: 15vw;
+    height: 5.5vw;
+    justify-content: space-around;
+    border-radius: 30px;
+    align-items: flex-end;
 }
 
-.dos{
-    border: 1px solid purple;
+
+.uan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(27, 177, 127);
+    width: 15vw;
+    height: 20vw;
+    margin: 1vw;
+    border-radius: 30px;
 }
 
-.tres{
-    border: 1px solid purple;
+.uan img{
+    width: 10vw;
+    height:  15vw;
 }
 
-.cuatro{
-    border: 1px solid purple;
+.uan p{
+    color: rgb(22, 143, 102);
+    font-size: 0.8vw;
+    line-height: 1.2vw;
+    margin: 0.5vw;
+}
+
+#cosita button{
+    cursor: pointer;
+    height: 3vh;
+    width: 5vw;
+    background-color: rgb(27, 177, 127);
+    font-size: 1vw;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    margin: 0 0.5vw 0.5vw 0;
+}
+
+.tu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(27, 177, 127);
+    width: 15vw;
+    height: 20vw;
+    margin: 1vw;
+    border-radius: 30px;
+}
+
+.tu img{
+    width: 10vw;
+    height:  15vw;
+}
+
+.tu p{
+    color: rgb(22, 143, 102);
+    font-size: 0.8vw;
+    line-height: 1.2vw;
+    margin: 0.5vw;
+}
+
+.tri{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(27, 177, 127);
+    width: 15vw;
+    height: 20vw;
+    margin: 1vw;
+    border-radius: 30px;
+}
+
+.tri img{
+    width: 10vw;
+    height:  15vw;
+}
+
+.tri p{
+    color: rgb(22, 143, 102);
+    font-size: 0.8vw;
+    line-height: 1.2vw;
+    margin: 0.5vw;
+}
+
+.for{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(27, 177, 127);
+    width: 15vw;
+    height: 20vw;
+    margin: 1vw;
+    border-radius: 30px;
+}
+
+.for img{
+    width: 10vw;
+    height:  15vw;
+}
+
+.for p{
+    color: rgb(22, 143, 102);
+    font-size: 0.8vw;
+    line-height: 1.2vw;
+    margin: 0.5vw;
 }
